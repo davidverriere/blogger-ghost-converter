@@ -9,6 +9,8 @@
   "author": "David Verrière",
   "license": "ISC",
   "dependencies": {
+    "slug": "^0.9.1",
+    "to-markdown": "^3.0.0",
     "xml-stream": "^0.4.5"
   }
 }
