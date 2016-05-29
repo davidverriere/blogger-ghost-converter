@@ -1,0 +1,14 @@
+{
+  "name": "bloggertoghostimport",
+  "version": "0.0.1",
+  "description": "Package that convert blogger export to ghost json import file",
+  "main": "convert-to-ghost.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Verrière",
+  "license": "ISC",
+  "dependencies": {
+    "xml-stream": "^0.4.5"
+  }
+}
