@@ -1,13 +1,27 @@
 {
-  "name": "bloggertoghostimport",
+  "name": "blogger-ghost-converter",
   "version": "0.0.1",
-  "description": "Package that convert blogger export to ghost json import file",
-  "main": "convert-to-ghost.js",
+  "description": "Blogger xml export to ghost json import converter",
+  "keywords": [
+    "blogger",
+    "ghost",
+    "converter",
+    "import",
+    "export"
+  ],
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "David Verrière",
+  "author": "David Verrière (http://cheesecode.fr)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidverriere/blogger-ghost-converter"
+  },
+  "bugs": {
+    "url": "https://github.com/davidverriere/blogger-ghost-converter/issues"
+  },
   "dependencies": {
     "slug": "^0.9.1",
     "to-markdown": "^3.0.0",
